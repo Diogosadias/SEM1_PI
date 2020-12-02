@@ -1,6 +1,6 @@
 
 body{
-	background-color: white;
+	background-color: LightGray;
 }
 
 html {
@@ -49,6 +49,20 @@ p {
 
 h2 {
     font-family: sans-serif;
+
+
+}
+
+
+.Serviços{
+	padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Iphonediv{
+	float: right;
+	width: 40%;
 }
 
 .APP{
@@ -59,27 +73,52 @@ h2 {
 
 .iphone {
 	float: right;
-	height: inherit;
-	width: 50%;	
-  max-height: auto;
+	width: 35%;	
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.Stores{
+	float: right;
+	max-width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .iphone2 {
 	float: right;
-	height: inherit;
-	max-width: 10%;	
-  max-height: auto;
-  margin-top: 30px;
+	max-width: 15%;	
   margin-left: auto;
   margin-right: auto;
 }
 
+.divisoria{
+	width: 50%;
+	float: right;
+	background-image: url("pexels-nappy-936094.jpg") ;
+	background-color: #cccccc; /* Used if the image is unavailable */
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
 
 .bannerPrincipal {
-    width: 100%;
-    text-align: left;
-    
+    height: 100%;
+    width: auto;
+    float: right;
+}
+
+.Contactos{
+	margin-bottom: 50px;
+}
+
+.Iseplogo{
+	float: right;
+	max-width: 20%;	
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px; 
 }
