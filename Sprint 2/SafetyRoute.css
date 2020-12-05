@@ -1,124 +1,135 @@
-
-body{
-	background-color: LightGray;
+/*header {
+    
 }
+
+#logo {
+    width: 100px;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}*/
 
 html {
     scroll-behavior: smooth;
 }
 
-nav {
-    padding: 10px;
-    font-size: 20px;
-    background-color: white;
-    position: fixed;
-    top: 10px;
-    right: 10%;
-    left: 10%;
-	text-align: center;
-    border-radius: 50px;
+.backg-img {
+    background-image: url(background.jpg);
+    min-width:  1000px;
+    min-height: 1000px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
 }
 
-body {
-    font-size: 16px;
-    font-weight: 200; 
+.logo {
+    position: absolute;
+    z-index: 3;
+    max-height: 120px;
+    max-width: 170px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
-a {
-  color: black;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: sans-serif;
+.container {
+    float: none;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-a:hover {
-  color: gray;
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
 }
 
-section{
-	display: block;
-	margin: 20px;
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-p {
-	text-align: center;
-	color: black;
-	font-family: sans-serif;
-    text-align: justify;
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
 }
 
 h2 {
-    font-family: sans-serif;
-
-
+    text-align: left;
+    font-family: serif;
+    font-size: 30px;
 }
 
-
-.Serviços{
-	padding-bottom: 100px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+.div_quemsomos {
+    width: 100%;
 }
 
-.Iphonediv{
-	float: right;
-	width: 40%;
+p {
+    text-align: justify;
+    font-size: 18px;
 }
 
-.APP{
-	clear: right;
-	overflow:auto;
-}
-
-
-.iphone {
-	float: right;
-	width: 35%;	
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.Stores{
-	float: right;
-	max-width: 35%;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.iphone2 {
-	float: right;
-	max-width: 15%;	
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.divisoria{
-	width: 50%;
-	float: right;
-	background-image: url("pexels-nappy-936094.jpg") ;
-	background-color: #cccccc; /* Used if the image is unavailable */
-	background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-
-}
-
-.bannerPrincipal {
-    height: 100%;
-    width: auto;
+.quemsomos_img {
+    width: 400px;
+    height: 120px;
     float: right;
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
 }
 
-.Contactos{
-	margin-bottom: 50px;
+.location_img {
+    width: 300px;
+    height: 120px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
 }
 
-.Iseplogo{
-	float: right;
-	max-width: 20%;	
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px; 
+.contactos_img {
+    width: 400px;
+    height: 255px;
+    float: left;
+    position: relative;
+    top: -35px;
 }
+
+.footer {
+  float: left;
+    width: 33.33%;
+    
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*
+.isep {
+    width: 200px;
+    height: 60px;
+}
+
+.appstore {
+    width: 200px;
+    height: 80px;
+}
+
+.playstore {
+    width: 200px;
+    height: 80px;
+}*/
