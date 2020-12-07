@@ -93,6 +93,11 @@ p {
 
 .footer {
   float: left;
-    width: 33.33%;
-    
+  width: 33.33%;
+}
+
+.linha::after {
+  content: "";
+  clear: both;
+  display: table;
 }
