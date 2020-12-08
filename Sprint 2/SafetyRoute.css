@@ -91,6 +91,11 @@ p {
     top: -35px;
 }
 
+.linha {
+    width: 100%;
+    text-align: center;
+}
+
 .footer {
   float: left;
   width: 33.33%;
